@@ -85,6 +85,10 @@
                         <button type="submit" class="btn btn-primary">Enviar mensaje</button>
                     </div>
                 </form>
+                <div class="alert alert-info alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    En pruebas! Los mensajes sólo podrán leerlos los coordinadores propietarios a través de un código personal
+                </div>
             </div>
 
             <?php

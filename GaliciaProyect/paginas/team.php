@@ -56,7 +56,7 @@
                             <img class="img-responsive" src="../assets/1.jpg" alt="">
                             <div class="overlay">
                                 <h2>Laura</h2>
-                                <a class="info" href="#">+34 630 86 70 73</a>
+                                <a class="info" href="https://api.whatsapp.com/send?phone=34630867073">HABLA CON ELLA</a>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                             <img class="img-responsive" src="../assets/2.jpg" alt="">
                             <div class="overlay">
                                 <h2>Ernesto</h2>
-                                <a class="info" href="#">+34 649 24 55 19</a>
+                                <a class="info" href="https://api.whatsapp.com/send?phone=34649245519">HABLA CON EL</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                             <img class="img-responsive" src="../assets/3.jpg" alt="">
                             <div class="overlay">
                                 <h2>Jaime</h2>
-                                <a class="info" href="#">+34 699 82 04 21</a>
+                                <a class="info" href="https://api.whatsapp.com/send?phone=34699820421">HABLA CON EL</a>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                             <img class="img-responsive" src="../assets/4.jpg" alt="">
                             <div class="overlay">
                                 <h2>David</h2>
-                                <a class="info" href="#">+34 646 86 04 99</a>
+                                <a class="info" href="https://api.whatsapp.com/send?phone=34646860499">HABLA CON EL</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                             <img class="img-responsive" src="../assets/5.jpg" alt="">
                             <div class="overlay">
                                 <h2>Bea</h2>
-                                <a class="info" href="#">+34 695 03 79 87</a>
+                                <a class="info" href="https://api.whatsapp.com/send?phone=34695037987">HABLA CON ELLA</a>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                             <img class="img-responsive" src="../assets/6.jpg" alt="">
                             <div class="overlay">
                                 <h2>Fernando</h2>
-                                <a class="info" href="#">+34 649 28 07 27</a>
+                                <a class="info" href="https://api.whatsapp.com/send?phone=34649280727">HABLA CON EL</a>
                             </div>
                         </div>
                     </div>
