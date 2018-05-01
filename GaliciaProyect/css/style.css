@@ -142,3 +142,15 @@ h1{
     height: 250px;
     text-align: center
 }
+
+.invis{
+    color: #f8f9fa!important;
+}
+
+.secret{
+    margin: 25px auto;
+}
+
+.instrucciones{
+    margin-bottom: 10px;
+}

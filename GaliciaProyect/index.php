@@ -41,6 +41,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./paginas/notes.php">Notes</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link invis" href="./paginas/secret.php">Secret</a>
+                        </li>
                     </ul>
                 </div>
             </nav>

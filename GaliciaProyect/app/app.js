@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", () => {
-    document.querySelector('#map').addEventListener("click", this.cambiar, false);
+    //document.querySelector('#map').addEventListener("click", this.cambiar, false);
 }, false);
 
 function verPlan(numero) {
@@ -48,4 +48,18 @@ function verPlan(numero) {
 
     }
 }
+
+function verMensajes() {
+
+    let codigo = document.querySelector('#codigo_coordi').value;
+
+    if(codigo != "laura" && codigo != "ernesto" && codigo != "jaime" && codigo != "david" && codigo != "bea" && codigo != "fernando")
+    {
+        alert("Error de código")
+    }
+    else{
+        window.location.href = "../paginas/notes.php?ver="+codigo;
+    }
+}
+
 
