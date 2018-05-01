@@ -47,10 +47,19 @@
         </div>
 
         <div class="mapa">
-
-            <figure>
-                <img id="map_img" src="./assets/mapaV7.png">
-            </figure>
+            <div class="dinamico"> 
+                <figure>
+                    <img id="map_img" src="./assets/mapaV7.png">
+                </figure>
+            </div>
+            <div class="pasos">
+                <button class='btn btn-primary mi-btn' onclick="verPlan(0)">MAPA</button>
+                <button class='btn btn-primary mi-btn' onclick="verPlan(1)">1. VIGO</button>
+                <button class='btn btn-primary mi-btn' onclick="verPlan(2)">2. ISLAS CÍES</button>
+                <button class='btn btn-primary mi-btn' onclick="verPlan(3)">3. CAMINO DE SANTIAGO</button>
+                <button class='btn btn-primary mi-btn' onclick="verPlan(4)">4. SANTIAGO</button>
+                <button class='btn btn-primary mi-btn' onclick="verPlan(5)">5. OURENSE</button>
+            </div>
 
         </div>
 

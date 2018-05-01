@@ -12,6 +12,11 @@
         width: 60%;
         cursor: pointer;
     }
+
+    .pasos{
+        margin-top: 5px;
+    }
+
 }
 
 @media screen and (max-width:990px){
@@ -24,6 +29,9 @@
         margin-top: 5%;
         width: 100%;
         cursor: pointer;
+    }
+    .mi-btn{
+        margin:5px;
     }
 }
 
@@ -127,4 +135,10 @@ h1{
 #mensajes_fernando{
     height: 250px;
     overflow: auto;
+}
+
+.lectura{
+    margin-top: 5%;
+    height: 250px;
+    text-align: center
 }
