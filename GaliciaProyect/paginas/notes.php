@@ -23,7 +23,7 @@
 
             <div class="menu">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light mi_nav">
-                    <a class="navbar-brand" href="#">Galicia</a>
+                    <a class="navbar-brand" href="../index.php">Galicia</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="../index.php">Mapa
+                                <a class="nav-link" href="../index.php">Map
                                     <span class="sr-only">(current)</span>
                                 </a>
                             </li>
@@ -56,7 +56,7 @@
                 </ul>
                 <div class="alert alert-info alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    En pruebas! En la versión final los mensajes sólo podrán leerlos los coordinadores propietarios
+                    ¡En pruebas! Versión 1.2
                 </div>
             <?php
             }
@@ -87,7 +87,7 @@
                 </form>
                 <div class="alert alert-info alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    En pruebas! Los mensajes sólo podrán leerlos los coordinadores propietarios a través de un código personal
+                    ¡En pruebas! Los mensajes sólo podrán leerlos los coordinadores. Versión 1.2
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
             ?>
                 <div class="alert alert-info alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    <strong>Enviado! </strong> Tu mensaje se ha enviado correctamente
+                    <strong>¡Enviado! </strong> Mensaje secreto enviado correctamente
                 </div>
             <?php
                 }
