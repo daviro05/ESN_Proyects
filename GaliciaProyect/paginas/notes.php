@@ -39,7 +39,7 @@
                                 <a class="nav-link" href="./team.php">Team</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="./notes.php">Notes</a>
+                                <a class="nav-link" href="./notes.php">Notas de AMOR</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link invis" href="./secret.php">Secret</a>
@@ -59,7 +59,7 @@
                 </ul>
                 <div class="alert alert-info alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    ¡En pruebas! Versión 1.2
+                    ¡En pruebas! Versión 1.3
                 </div>
             <?php
             }
@@ -90,7 +90,7 @@
                 </form>
                 <div class="alert alert-info alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    ¡En pruebas! Los mensajes sólo podrán leerlos los coordinadores. Versión 1.2
+                    ¡En pruebas! Los mensajes sólo podrán leerlos los coordinadores. Dá tu opinión o deja un mensaje anónimo. Versión 1.3
                 </div>
             </div>
 

@@ -52,6 +52,7 @@ function verPlan(numero) {
 function verMensajes() {
 
     let codigo = document.querySelector('#codigo_coordi').value;
+    codigo = codigo.toLowerCase();
 
     if(codigo != "laura" && codigo != "ernesto" && codigo != "jaime" && codigo != "david" && codigo != "bea" && codigo != "fernando")
     {
