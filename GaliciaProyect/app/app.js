@@ -42,7 +42,9 @@ function verPlan(numero) {
 
         case 5:
             document.querySelector('.dinamico').innerHTML = "<textarea class='lectura form-control form-rounded' readonly=readonly>"+
-            " 5. OURENSE\n";
+            " 5. OURENSE\n La quinta y última parada del camino de ESN UCM es nada más y nada menos que Ourense 😍"+
+            " Podría llamarse la capital termal de Galicia porque tiene múltiples manantiales de aguas termales tanto en el centro como a las afueras."+
+            " Destaca su catedral, el contraste de su pasado milenario con sus infraestructuras más vanguardistas, como el puente del Milenio. ¡No nos lo vamos a perder!";
             break;
 
 

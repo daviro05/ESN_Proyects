@@ -59,7 +59,7 @@
                 </ul>
                 <div class="alert alert-info alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    ¡En pruebas! Versión 1.3
+                    ¡En pruebas! Versión 1.4
                 </div>
             <?php
             }
@@ -90,7 +90,7 @@
                 </form>
                 <div class="alert alert-info alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    ¡En pruebas! Los mensajes sólo podrán leerlos los coordinadores. Dá tu opinión o deja un mensaje anónimo. Versión 1.3
+                    Los mensajes sólo podrán leerlos los coordinadores. Da tu opinión o deja un mensaje anónimo. Versión 1.4
                 </div>
             </div>
 
