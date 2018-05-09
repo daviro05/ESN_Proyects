@@ -1,6 +1,7 @@
 @media screen and (min-width: 680px){
     .wraper {
-        height: 900px;
+        height: 1000px;
+        overflow-y: auto
     }
 
     .img_titulo{
@@ -62,6 +63,8 @@ header{
     max-width: 960px;
     padding-right: 1rem;
     padding-left:  1rem;
+    overflow: auto;
+    height: 600px;
 }
 
 
@@ -75,7 +78,7 @@ h1{
         margin: 1rem;
         padding: 1rem;
         text-align: center;
-        height: 450px;
+        height: 350px;
         overflow: auto;
 }
 
@@ -153,4 +156,8 @@ h1{
 
 .instrucciones{
     margin-bottom: 10px;
+}
+
+.pasos{
+    height: 400px;
 }

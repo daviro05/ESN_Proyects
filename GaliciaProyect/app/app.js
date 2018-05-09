@@ -28,7 +28,7 @@ function verPlan(numero) {
         case 3:
             document.querySelector('.dinamico').innerHTML = "<textarea class='lectura form-control form-rounded' readonly=readonly>"+
             " 3. CAMINO DE SANTIAGO\n Y la tercera etapa del Camino de ESN UCM, como no podía ser de otra forma es ¡el camino de Santiago!"+
-            " Porque sí amigos, vamos a hacer una pequeña etapa de esta peregrinación de origen medieval cuyo propósito es llegar a la tumba atribuida al apóstol Santiago. Es una ruta que siempre ha sido y sigue siendo muy concurrida, pero no solo por peregrinos procedentes de todas pares de España, sino por todas partes del mundo."+
+            " Porque sí amigos, vamos a hacer una pequeña etapa de esta peregrinación de origen medieval cuyo propósito es llegar a la tumba atribuida al apóstol Santiago. Es una ruta que siempre ha sido y sigue siendo muy concurrida, pero no solo por peregrinos procedentes de todas partes de España, sino por todas partes del mundo."+
             " El símbolo más importante del camino es una flecha amarilla, la cual indica la dirección del sendero, también una concha de viera con la cruz de Santiago son algunos de los distintivos. ¿Te atreves a seguirlo sin perderte?";
             break;
 
