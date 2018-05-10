@@ -57,10 +57,6 @@
                     echo "<br><ul id='mensajes_$coordi' class='list-group'>"
             ?>
                 </ul>
-                <div class="alert alert-info alert-dismissible">
-                    <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    ¡En pruebas! Versión 1.4
-                </div>
             <?php
             }
             else{
@@ -88,23 +84,23 @@
                         <button type="submit" class="btn btn-primary">Enviar mensaje</button>
                     </div>
                 </form>
+                
+                <?php
+                }
+                    if(isset($_GET['finalizado']) == true){
+                ?>
+                    <div class="alert alert-info alert-dismissible">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>¡Enviado! </strong> Mensaje secreto enviado correctamente
+                    </div>
+                <?php
+                    }
+                ?>
                 <div class="alert alert-info alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    Los mensajes sólo podrán leerlos los coordinadores. Da tu opinión o deja un mensaje anónimo. Versión 1.4
+                    Sólo podrán leerlos los coordinadores individualmente. Deja un mensaje anónimo.
                 </div>
             </div>
-
-            <?php
-            }
-                if(isset($_GET['finalizado']) == true){
-            ?>
-                <div class="alert alert-info alert-dismissible">
-                    <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    <strong>¡Enviado! </strong> Mensaje secreto enviado correctamente
-                </div>
-            <?php
-                }
-            ?>
 
         </div>
     </div>
