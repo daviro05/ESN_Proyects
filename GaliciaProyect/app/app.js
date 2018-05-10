@@ -56,7 +56,7 @@ function verMensajes() {
     let codigo = document.querySelector('#codigo_coordi').value;
     codigo = codigo.toLowerCase();
 
-    if(codigo != "laura926" && codigo != "ernesto387" && codigo != "jaime820" && codigo != "david909" && codigo != "bea431" && codigo != "fernando742")
+    if(codigo != "laura92646" && codigo != "ernesto38719" && codigo != "jaime82037" && codigo != "david90918" && codigo != "bea43127" && codigo != "fernando74270")
     {
         alert("Error de código")
     }

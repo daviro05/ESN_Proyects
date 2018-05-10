@@ -52,7 +52,8 @@
             <?php
                 if(isset($_GET['ver'])){
                     $coordi = $_GET['ver'];
-                    echo "<p class='ver_cabecera'>Mensajes secretos de ".$coordi."</p></br>";
+                    $nombre = substr($coordi, 0, -5);
+                    echo "<p class='ver_cabecera'>Mensajes secretos de ".$nombre."</p></br>";
                     echo "<p><button class='btn btn-primary' onclick=leerPuntuacion('$coordi')>Ver / Actualizar Mensajes</button></p>";
                     echo "<br><ul id='mensajes_$coordi' class='list-group'>"
             ?>
