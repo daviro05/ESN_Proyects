@@ -25,7 +25,8 @@ const intvl = setInterval(() => {
 
   if(hours<0 && minutes <0 && seconds<0){
     clearInterval(intvl)
-    countdown.innerHTML = `¡YA A LA VENTA!`;
-    venta.innerHTML=`<a href='https://verse.events/QYT3ojb6wuets'>Enlace a Verse</a>`;
+    countdown.innerHTML = `¡PRONTO NUEVOS TICKETS A LA VENTA!`;
+    //venta.innerHTML=`<a href='https://verse.events/QYT3ojb6wuets'>Enlace a Verse</a>`;
+    venta.innerHTML=`ESN UCM`;
   }
 }, 1000);
