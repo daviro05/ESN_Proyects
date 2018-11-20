@@ -97,3 +97,13 @@
 .hovered-item.circle.effect1 a:hover .info {
     opacity: 1;
 }
+
+.viaje{
+    width: 100%;
+    margin: auto;
+}
+
+.info_viaje{
+    display: none;
+    border:4px solid black
+}
