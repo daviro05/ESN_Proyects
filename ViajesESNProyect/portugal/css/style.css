@@ -1,0 +1,162 @@
+@media screen and (min-width: 680px){
+    .wraper {
+        height: 1000px;
+        overflow-y: auto
+    }
+
+    .img_titulo{
+        width: 50%;
+    }
+
+    .mapa img{
+        margin-top: 5%;
+        width: 60%;
+        cursor: pointer;
+    }
+
+    .pasos{
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (max-width:990px){
+
+    .img_titulo{
+        width: 80%;
+    }
+
+    .mapa img{
+        margin-top: 5%;
+        width: 100%;
+        cursor: pointer;
+    }
+    .mi-btn{
+        margin:5px;
+    }
+}
+
+body{
+    min-height: 100%;
+}
+
+p, button{
+    text-align: center;
+}
+
+.main{
+    background-image: url("../assets/fondo.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -9999;
+}
+
+header{
+    text-align: center;
+}
+
+.wraper {
+    margin: auto;
+    max-width: 960px;
+    padding-right: 1rem;
+    padding-left:  1rem;
+    overflow: auto;
+    height: 600px;
+}
+
+
+h1{
+    margin: 2%;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3rem;
+}
+
+.contenedor{
+        margin: 1rem;
+        padding: 1rem;
+        text-align: center;
+        height: 350px;
+        overflow: auto;
+}
+
+.mapa{
+    text-align: center;
+    width: 100%;
+}
+
+.mi_nav{
+    border-radius: 20px;
+}
+
+.notas{
+    text-align: center
+}
+
+.form-group{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.form-group label{
+    margin-bottom: 2%;
+}
+
+.mensaje{
+    height: 150px;
+}
+
+.send{
+    text-align: center;
+    margin-top: 3%;
+    color:cadetblue;
+    font-weight: bold;
+}
+
+.alert-info{
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center
+}
+
+.ver_cabecera{
+    margin-top: 4%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#mensajes_laura,
+#mensajes_ernesto,
+#mensajes_jaime,
+#mensajes_david,
+#mensajes_bea,
+#mensajes_fernando{
+    height: 250px;
+    overflow: auto;
+}
+
+.lectura{
+    margin-top: 5%;
+    height: 250px;
+    text-align: center
+}
+
+.invis{
+    color: #f8f9fa!important;
+}
+
+.secret{
+    margin: 25px auto;
+}
+
+.instrucciones{
+    margin-bottom: 10px;
+}
+
+.pasos{
+    height: 400px;
+}
