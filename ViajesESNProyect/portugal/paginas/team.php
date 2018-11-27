@@ -39,7 +39,7 @@
                                 <a class="nav-link" href="./team.php">Team</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./notes.php">Notas de AMOR</a>
+                                <a class="nav-link" href="./notes.php">Escribe NOTAS</a>
                             </li>
                             <li class="nav-item">
                             <a class="nav-link invis" href="./secret.php">Secret</a>
@@ -56,67 +56,32 @@
                 <div class="section group">
                     <div class="col span_1_of_3">
                         <div class="hovereffect">
-                            <img class="img-responsive" src="../assets/1.jpg" alt="">
+                            <img class="img-responsive" src="../assets/1.jpg" alt="Benja">
                             <div class="overlay">
-                                <h2>Laura</h2>
-                                <a class="info" href="https://api.whatsapp.com/send?phone=34630867073" target="_blank">HABLA CON ELLA</a>
-                                <a class="info" href="https://www.facebook.com/lauuuredondo" target="_blank">FACEBOOK</a>
+                                <h2>Benja</h2>
+                                <a class="info" href="https://api.whatsapp.com/send?phone=34" target="_blank">HABLA CON EL</a>
                             </div>
                         </div>
                     </div>
                     <div class="col span_1_of_3">
                         <div class="hovereffect">
-                            <img class="img-responsive" src="../assets/2.jpg" alt="">
+                            <img class="img-responsive" src="../assets/2.jpg" alt="David">
                             <div class="overlay">
-                                <h2>Ernesto</h2>
-                                <a class="info" href="https://api.whatsapp.com/send?phone=34649245519" target="_blank">HABLA CON EL</a>
-                                <a class="info" href="https://www.facebook.com/ernesto.castellanoaltable" target="_blank">FACEBOOK</a>
+                                <h2>David</h2>
+                                <a class="info" href="https://api.whatsapp.com/send?phone=34646860499" target="_blank">HABLA CON EL</a>
                             </div>
                         </div>
                     </div>
                     <div class="col span_1_of_3">
                         <div class="hovereffect">
-                            <img class="img-responsive" src="../assets/3.jpg" alt="">
+                            <img class="img-responsive" src="../assets/3.jpg" alt="Fer Vikingo">
                             <div class="overlay">
-                                <h2>Jaime</h2>
-                                <a class="info" href="https://api.whatsapp.com/send?phone=34699820421" target="_blank">HABLA CON EL</a>
-                                <a class="info" href="https://www.facebook.com/jimminavas.5" target="_blank">FACEBOOK</a>
+                                <h2>Fer Vikingo</h2>
+                                <a class="info" href="https://api.whatsapp.com/send?phone=34" target="_blank">HABLA CON EL</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="section group">
-                    <div class="col span_1_of_3">
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="../assets/4.jpg" alt="">
-                            <div class="overlay">
-                                <h2>David</h2>
-                                <a class="info" href="https://api.whatsapp.com/send?phone=34646860499" target="_blank">HABLA CON EL</a>
-                                <a class="info" href="https://www.facebook.com/DRM909" target="_blank">FACEBOOK</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col span_1_of_3">
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="../assets/5.jpg" alt="">
-                            <div class="overlay">
-                                <h2>Bea</h2>
-                                <a class="info" href="https://api.whatsapp.com/send?phone=34695037987" target="_blank">HABLA CON ELLA</a>
-                                <a class="info" href="https://www.facebook.com/bea.derute" target="_blank">FACEBOOK</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col span_1_of_3">
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="../assets/6.jpg" alt="">
-                            <div class="overlay">
-                                <h2>Fer</h2>
-                                <a class="info" href="https://api.whatsapp.com/send?phone=34649280727" target="_blank">HABLA CON EL</a>
-                                <a class="info" href="https://www.facebook.com/Fer.Marin.1993" target="_blank">FACEBOOK</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
             </div>

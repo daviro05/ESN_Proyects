@@ -39,7 +39,7 @@
                                 <a class="nav-link" href="./team.php">Team</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="./notes.php">Notas de AMOR</a>
+                                <a class="nav-link" href="./notes.php">Escribe NOTAS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link invis" href="./secret.php">Secret</a>
@@ -67,11 +67,8 @@
                     <div class="form-group">
                         <label for="exampleSelect1">Coordinador/a</label>
                         <select class="form-control" name="coordi_select">
-                            <option value="laura">LAURA</option>
-                            <option value="ernesto">ERNESTO</option>
-                            <option value="jaime">JAIME</option>
+                            <option value="benja">LAURA</option>
                             <option value="david">DAVID</option>
-                            <option value="bea">BEA</option>
                             <option value="fernando">FERNANDO</option>
                         </select>
                     </div>
