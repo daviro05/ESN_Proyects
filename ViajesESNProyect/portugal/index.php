@@ -58,7 +58,7 @@
             <div class="pasos">
                 <button class='btn btn-primary mi-btn' onclick="verPlan(0)">MAPA</button>
                 <button class='btn btn-primary mi-btn' onclick="verPlan(1)">1. LISBOA</button>
-                <button class='btn btn-primary mi-btn' onclick="verPlan(2)">2. JERÓNIMOS Y BELÉM</button>
+                <button class='btn btn-primary mi-btn' onclick="verPlan(2)">2. BELÉM</button>
                 <button class='btn btn-primary mi-btn' onclick="verPlan(3)">3. SAN JORGE</button>
                 <button class='btn btn-primary mi-btn' onclick="verPlan(4)">4. PORTO</button>
                 <button class='btn btn-primary mi-btn' onclick="verPlan(5)">5. MUSEO</button>
