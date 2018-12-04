@@ -75,8 +75,6 @@
                         <optgroup label="Descoordis">
                             <option value="enrique">ENRIQUE</option>
                             <option value="youna">YOUNA</option>
-                        </optgroup>
-                        <optgroup label="Descoordis 2.0">
                             <option value="alicia">ALICIA</option>
                             <option value="cova">COVA</option>
                             <option value="elena">ELENA</option>
