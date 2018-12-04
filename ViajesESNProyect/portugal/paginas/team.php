@@ -76,7 +76,7 @@
                         <div class="hovereffect">
                             <img class="img-responsive" src="../assets/3.jpg" alt="Fer Vikingo">
                             <div class="overlay">
-                                <h2>Fer Vikingo</h2>
+                                <h2>Fernando</h2>
                                 <a class="info" href="https://api.whatsapp.com/send?phone=34" target="_blank">HABLA CON EL</a>
                             </div>
                         </div>
