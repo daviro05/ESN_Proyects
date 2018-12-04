@@ -2,43 +2,43 @@
 
 if(isset($_GET['coordi'])){
     switch($_GET['coordi']){
-        case "benja123":
+        case "ben01ja":
             $file = fopen("../mensajes/benja.txt", "r") or exit("No se puede abrir el archivo");
         break;
-        case "david123":
+        case "dav02id":
             $file = fopen("../mensajes/david.txt", "r") or exit("No se puede abrir el archivo");
         break;
-        case "ferb123":
+        case "fer03be":
             $file = fopen("../mensajes/fernando.txt", "r") or exit("No se puede abrir el archivo");
         break;
-        case "ferm123":
+        case "fer04ma":
             $file = fopen("../mensajes/fermarin.txt", "r") or exit("No se puede abrir el archivo");
         break;
-        case "ali123":
+        case "ali05ci":
             $file = fopen("../mensajes/alicia.txt", "r") or exit("No se puede abrir el archivo");
         break;
-        case "cova123":
+        case "cov06aa":
             $file = fopen("../mensajes/cova.txt", "r") or exit("No se puede abrir el archivo");
         break;
-        case "elena123":
+        case "ele07na":
             $file = fopen("../mensajes/elena.txt", "r") or exit("No se puede abrir el archivo");
         break;
-        case "enri123":
+        case "enr08iq":
             $file = fopen("../mensajes/enrique.txt", "r") or exit("No se puede abrir el archivo");
         break;
-        case "ernes123":
+        case "ern09es":
             $file = fopen("../mensajes/ernesto.txt", "r") or exit("No se puede abrir el archivo");
         break;
-        case "lau123":
+        case "lau10ra":
             $file = fopen("../mensajes/laura.txt", "r") or exit("No se puede abrir el archivo");
         break;
-        case "paloma123":
+        case "pal11om":
             $file = fopen("../mensajes/paloma.txt", "r") or exit("No se puede abrir el archivo");
         break;
-        case "pedro123":
+        case "ped12ro":
             $file = fopen("../mensajes/pedro.txt", "r") or exit("No se puede abrir el archivo");
         break;
-        case "youna123":
+        case "you13na":
             $file = fopen("../mensajes/youna.txt", "r") or exit("No se puede abrir el archivo");
         break;
     }    

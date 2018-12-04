@@ -67,7 +67,19 @@ function verMensajes() {
     let codigo = document.querySelector('#codigo_coordi').value;
     codigo = codigo.toLowerCase();
 
-    if(codigo != "david123" && codigo != "benja123" && codigo != "fer123")
+    if( codigo != "ben01ja" && 
+        codigo != "dav02id" && 
+        codigo != "fer03be" &&
+        codigo != "fer04ma" &&
+        codigo != "ali05ci" &&
+        codigo != "cov06aa" &&
+        codigo != "ele07na" &&
+        codigo != "enr08iq" &&
+        codigo != "ern09es" &&
+        codigo != "lau10ra" &&
+        codigo != "pal11om" &&
+        codigo != "ped12ro" &&
+        codigo != "you13na" )
     {
         alert("Error de código")
     }
