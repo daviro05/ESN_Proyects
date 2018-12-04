@@ -57,11 +57,12 @@
             </div>
             <div class="pasos">
                 <button class='btn btn-primary mi-btn' onclick="verPlan(0)">MAPA</button>
-                <button class='btn btn-primary mi-btn' onclick="verPlan(1)">1. VIGO</button>
-                <button class='btn btn-primary mi-btn' onclick="verPlan(2)">2. ISLAS CÍES</button>
-                <button class='btn btn-primary mi-btn' onclick="verPlan(3)">3. CAMINO DE SANTIAGO</button>
-                <button class='btn btn-primary mi-btn' onclick="verPlan(4)">4. SANTIAGO</button>
-                <button class='btn btn-primary mi-btn' onclick="verPlan(5)">5. OURENSE</button>
+                <button class='btn btn-primary mi-btn' onclick="verPlan(1)">1. LISBOA</button>
+                <button class='btn btn-primary mi-btn' onclick="verPlan(2)">2. JERÓNIMOS Y BELÉM</button>
+                <button class='btn btn-primary mi-btn' onclick="verPlan(3)">3. SAN JORGE</button>
+                <button class='btn btn-primary mi-btn' onclick="verPlan(4)">4. PORTO</button>
+                <button class='btn btn-primary mi-btn' onclick="verPlan(5)">5. MUSEO</button>
+                <button class='btn btn-primary mi-btn' onclick="verPlan(6)">6. VISITA BODEGA</button>
             </div>
         </div>
     </div>
