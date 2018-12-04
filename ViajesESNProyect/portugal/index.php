@@ -31,7 +31,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="./index.php">Map
+                            <a class="nav-link" href="./index.php">Mapa
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
