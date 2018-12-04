@@ -65,11 +65,27 @@
             <div class="notas">
                 <form action="save.php" method="post">
                     <div class="form-group">
-                        <label for="exampleSelect1">Coordinador/a</label>
+                        <label for="exampleSelect1">Coordis/Descoordis</label>
                         <select class="form-control" name="coordi_select">
-                            <option value="benja">LAURA</option>
+                        <optgroup label="Coordinadores">
+                            <option value="benja">BENJA</option>
                             <option value="david">DAVID</option>
-                            <option value="fernando">FERNANDO</option>
+                            <option value="fernando">FER BENTUÉ</option>
+                        </optgroup>
+                        <optgroup label="Descoordis">
+                            <option value="enrique">ENRIQUE</option>
+                            <option value="youna">YOUNA</option>
+                        </optgroup>
+                        <optgroup label="Descoordis 2.0">
+                            <option value="alicia">ALICIA</option>
+                            <option value="cova">COVA</option>
+                            <option value="elena">ELENA</option>
+                            <option value="ernesto">ERNESTO</option>
+                            <option value="fermarin">FER MARÍN</option>
+                            <option value="laura">LAURA</option>
+                            <option value="paloma">PALOMA</option>
+                            <option value="pedro">PEDRO</option>
+                        </optgroup>
                         </select>
                     </div>
 
@@ -96,7 +112,7 @@
                 ?>
                 <div class="alert alert-info alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    Sólo podrán leerlos los coordinadores individualmente. Deja un mensaje anónimo.
+                    Sólo podrán leerlos los coordis individualmente. Deja un mensaje anónimo.
                 </div>
             </div>
 
