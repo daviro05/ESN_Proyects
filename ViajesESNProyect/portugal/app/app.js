@@ -52,7 +52,7 @@ function verPlan(numero) {
         
         case 6:
         document.querySelector('.dinamico').innerHTML = "<textarea class='lectura form-control form-rounded' readonly=readonly>"+
-            " 6. VISITA BODEGA\n Nuestra visita a Oporto es obligatorio hacer una visita a las bodegas de vino. "+
+            " 6. VISITA BODEGA\n En nuestra visita a Oporto es obligatorio hacer una visita a las bodegas de vino. "+
             " Curiosamente, casi todas tienen nombres o apellidos ingleses: esto se debe a que fueron estos quienes, "+
             " en el siglo XVII, y a causa de una guerra contra Francia, quedaron sin importaciones de vinos."+
             " ¡Vamos a disfrutar con la cata!";

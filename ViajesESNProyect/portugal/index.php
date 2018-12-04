@@ -52,7 +52,7 @@
         <div class="mapa">
             <div class="dinamico"> 
                 <figure>
-                    <img id="map_img" src="./assets/mapaV7.png">
+                    <img id="map_img" src="./assets/mapa.png">
                 </figure>
             </div>
             <div class="pasos">
