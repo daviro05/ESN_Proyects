@@ -56,16 +56,16 @@
                 <div class="section group">
                     <div class="col span_1_of_3">
                         <div class="hovereffect">
-                            <img class="img-responsive" src="../assets/1.jpg" alt="Benja">
+                            <img class="img-responsive" src="../assets/benja.jpg" alt="Benja">
                             <div class="overlay">
                                 <h2>Benja</h2>
-                                <a class="info" href="https://api.whatsapp.com/send?phone=34" target="_blank">HABLA CON EL</a>
+                                <a class="info" href="https://api.whatsapp.com/send?phone=34660191621" target="_blank">HABLA CON EL</a>
                             </div>
                         </div>
                     </div>
                     <div class="col span_1_of_3">
                         <div class="hovereffect">
-                            <img class="img-responsive" src="../assets/2.jpg" alt="David">
+                            <img class="img-responsive" src="../assets/david.jpg" alt="David">
                             <div class="overlay">
                                 <h2>David</h2>
                                 <a class="info" href="https://api.whatsapp.com/send?phone=34646860499" target="_blank">HABLA CON EL</a>
@@ -74,10 +74,10 @@
                     </div>
                     <div class="col span_1_of_3">
                         <div class="hovereffect">
-                            <img class="img-responsive" src="../assets/3.jpg" alt="Fer Vikingo">
+                            <img class="img-responsive" src="../assets/fernando.jpg" alt="Fer Vikingo">
                             <div class="overlay">
                                 <h2>Fernando</h2>
-                                <a class="info" href="https://api.whatsapp.com/send?phone=34" target="_blank">HABLA CON EL</a>
+                                <a class="info" href="https://api.whatsapp.com/send?phone=34672389232" target="_blank">HABLA CON EL</a>
                             </div>
                         </div>
                     </div>
