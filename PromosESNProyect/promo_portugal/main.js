@@ -24,10 +24,11 @@ const intvl = setInterval(() => {
     <div><strong>${seconds}</strong><span>Segundos</span></div>
   `;
 
-  if(hours<0 && minutes <0 && seconds<0){
+  if(!(hours<0 && minutes <0 && seconds<0)){
     clearInterval(intvl)
     countdown.innerHTML = `¡Nos vamos de viaje!`;
     //venta.innerHTML=`<a href='https://verse.events/QYT3ojb6wuets'>Enlace a Verse</a>`;
     venta.innerHTML=`ESN UCM`;
+    window.location.replace("./portugal/");
   }
 }, 1000);
