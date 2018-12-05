@@ -41,6 +41,9 @@ if(isset($_GET['coordi'])){
         case "you13na":
             $file = fopen("../mensajes/youna.txt", "r") or exit("No se puede abrir el archivo");
         break;
+        case "gen14er":
+            $file = fopen("../mensajes/general.txt", "r") or exit("No se puede abrir el archivo");
+        break;
     }    
 }
 

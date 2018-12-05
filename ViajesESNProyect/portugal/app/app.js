@@ -110,7 +110,8 @@ function verMensajes() {
         codigo != "lau10ra" &&
         codigo != "pal11om" &&
         codigo != "ped12ro" &&
-        codigo != "you13na" )
+        codigo != "you13na" &&
+        codigo != "gen14er")
     {
         alert("Error de código")
     }

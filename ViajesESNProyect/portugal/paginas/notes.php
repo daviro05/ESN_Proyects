@@ -70,6 +70,9 @@
                     <div class="form-group">
                         <label for="exampleSelect1">Coordis/Descoordis</label>
                         <select class="form-control" name="coordi_select">
+                        <optgroup label="General">
+                            <option value="general">A TODOS!</option>
+                        </optgroup>
                         <optgroup label="Coordinadores">
                             <option value="benja">BENJA</option>
                             <option value="david">DAVID</option>

@@ -43,6 +43,9 @@ switch($nombre)
     case "youna":
         $file = fopen("../mensajes/youna.txt", "a");
     break;
+    case "general":
+        $file = fopen("../mensajes/general.txt", "a");
+    break;
 }
 
 $cabecera = "<li class='list-group-item'>";
