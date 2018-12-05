@@ -39,7 +39,10 @@
                             <a class="nav-link" href="./paginas/team.php">Coordinadores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./notes.php">Escribe NOTAS</a>
+                            <a class="nav-link" href="./paginas/notes.php">Escribe NOTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/survival.php">Survival</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link invis" href="./paginas/secret.php">Secret</a>
