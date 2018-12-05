@@ -24,7 +24,8 @@ const intvl = setInterval(() => {
     <div><strong>${seconds}</strong><span>Segundos</span></div>
   `;
 
-  if(!(hours<0 && minutes <0 && seconds<0)){
+  //Negarlo cuando se quieran hacer pruebas
+  if(hours<0 && minutes <0 && seconds<0){
     clearInterval(intvl)
     countdown.innerHTML = `¡Nos vamos de viaje!`;
     //venta.innerHTML=`<a href='https://verse.events/QYT3ojb6wuets'>Enlace a Verse</a>`;
