@@ -1,109 +1,230 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,600");
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+html, body {
+  color: #fff;
+  font-family: 'Raleway', arial, sans-serif;
+  margin: 0;
+  background-color: #333;
+}
+
+.landing {
+  background: transparent url(./portu.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  padding: 1rem;
+  position: relative;
+}
+.landing::before {
+  background-color: rgba(0, 0, 0, 0.8);
+  content: '';
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  -webkit-transform: rotate(45deg) translateY(-30%) scale(1.6);
+          transform: rotate(45deg) translateY(-30%) scale(1.6);
+  -webkit-filter: blur(80px);
+          filter: blur(80px);
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.logo span {
+  background: #000;
+  height: 150px;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  line-height: 150px;
+  border: 1px solid #fff;
+}
+
+.description {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 200;
+}
+
+.landing-inner {
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  width: 80%;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: #000000
+}
+.countdown div {
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  margin: 0.2rem;
+  width: 100px;
+}
+.countdown div:nth-child(1) {
+  background-color: rgba(255, 251, 11, 0.7);
+}
+.countdown div:nth-child(2) {
+  background-color: rgba(255, 11, 194, 0.7);
+}
+.countdown div:nth-child(3) {
+  background-color: rgba(61, 255, 255, 0.781);
+}
+
+.countdown div:last-child {
+    background-color: rgba(16, 255, 136, 0.829);
+}
+.countdown span {
+  font-weight: 300;
+  display: block;
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .countdown, .description {
+    font-size: 1.2rem;
+  }
+
+  .countdown div {
+    width: 90px;
+  }
+}
+.venta a{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.venta a:hover{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color:rgba(61, 255, 255, 0.781);
+}
+
+
+
+
+
 .hovered-item.circle {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+  position: relative;
+  margin:auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 .hovered-item a {
-    color: #333;
+  color: #333;
 }
 .hovered-item.circle.effect1 .spinner {
-    width: 210px;
-    height: 210px;
-    border: 10px solid #ec1818ea;
-    border-right-color: #1ad280;
-    border-bottom-color: #1ad280;
-    border-radius: 50%;
-    -webkit-transition: all 0.8s ease-in-out;
-    -moz-transition: all 0.8s ease-in-out;
-    transition: all 0.8s ease-in-out;
+  width: 210px;
+  height: 210px;
+  border: 10px solid #ec1818ea;
+  border-right-color: #1ad280;
+  border-bottom-color: #1ad280;
+  border-radius: 50%;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 .hovered-item.circle .img {
-    position: relative;
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
+  position: relative;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
 }
 .hovered-item.circle.effect1 .img {
-    position: absolute;
-    top: 10px;
-    bottom: 0;
-    left: 10px;
-    right: 0;
-    width: auto;
-    height: auto;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  width: auto;
+  height: auto;
 }
 .hovered-item img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .hovered-item.circle .img img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 .hovered-item.circle .info {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    border-radius: 50%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .hovered-item.circle.effect1 .info {
-    top: 10px;
-    bottom: 0;
-    left: 10px;
-    right: 0;
-    background: #333333;
-    background: rgba(0, 0, 0, 0.6);
-    opacity: 0;
-    -webkit-transition: all 0.8s ease-in-out;
-    -moz-transition: all 0.8s ease-in-out;
-    transition: all 0.8s ease-in-out;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 .hovered-item.circle.effect1 .info h3 {
-    color: #fff;
-    text-transform: uppercase;
-    position: relative;
-    letter-spacing: 2px;
-    font-size: 22px;
-    margin: 0 30px;
-    padding: 55px 0 0 0;
-    height: 110px;
-    text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin: 0 30px;
+  padding: 55px 0 0 0;
+  height: 110px;
+  text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 .hovered-item.circle.effect1 .info p {
-    color: #bbb;
-    padding: 10px 5px;
-    font-style: italic;
-    margin: 0 30px;
-    font-size: 12px;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+  color: #bbb;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 .hovered-item.circle.effect1 a:hover .spinner {
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .hovered-item.circle.effect1 a:hover .info {
-    opacity: 1;
+  opacity: 1;
 }
 
 .viaje{
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .info_viaje{
-    display: none;
-    border:4px solid black
+  display: none;
+  border:4px solid black
 }

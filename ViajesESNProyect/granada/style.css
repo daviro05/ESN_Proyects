@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,600");
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  color: #fff;
+  font-family: 'Raleway', arial, sans-serif;
+  margin: 0;
+  background-color: #333;
+}
+
+.landing {
+  background: transparent url(./granadafondo.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  padding: 1rem;
+  position: relative;
+}
+.landing::before {
+  background-color: rgba(0, 0, 0, 0.8);
+  content: '';
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  -webkit-transform: rotate(45deg) translateY(-30%) scale(1.6);
+          transform: rotate(45deg) translateY(-30%) scale(1.6);
+  -webkit-filter: blur(80px);
+          filter: blur(80px);
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.logo span {
+  background: #000;
+  height: 150px;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  line-height: 150px;
+  border: 1px solid #fff;
+}
+
+.description {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 200;
+  width: 250px;
+  margin: auto;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.landing-inner {
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.countdown div {
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  margin: 0.2rem;
+  width: 100px;
+}
+.countdown div:nth-child(1) {
+  background-color: rgb(122, 193, 67);
+}
+.countdown div:nth-child(2) {
+  background-color: rgb(244, 124, 32)
+}
+.countdown div:nth-child(3) {
+  background-color: rgb(46, 49, 146);
+}
+.countdown div:last-child {
+    background-color: rgb(236, 0, 142);
+}
+.countdown span {
+  font-weight: 300;
+  display: block;
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .countdown, .description {
+    font-size: 1.2rem;
+  }
+
+  .countdown div {
+    width: 90px;
+  }
+
+  .contenedor{
+    width: 70%;
+    margin:auto
+  }
+}
+.venta{
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.venta a{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.venta a:hover{
+    font-size: 1.5rem;
+    color:rgba(61, 255, 255, 0.781);
+}
+
+.viaje{
+  width: 100%;
+  margin: auto;
+}
+
+.info_viaje{
+  display: none;
+  border:4px solid black
+}
+
+.imagen img{
+  width: 250px;
+}
